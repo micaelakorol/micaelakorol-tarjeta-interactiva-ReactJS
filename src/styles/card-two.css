@@ -1,0 +1,59 @@
+.contenedor{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   text-align:center;
+}
+.cards{
+    width: 400px;
+    height: 400px;
+    background-color:rgb(73, 73, 73);
+padding:10px;
+border-radius: 30px;
+
+}
+.image{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.dinamico{
+margin-top:15px;
+margin-bottom: 20px;
+background-color: gray;
+height: 50px;
+display: flex;
+justify-content:center;
+align-items: center;
+border-radius: 30px;
+opacity: 0.4;
+font-weight: 400;
+padding: 0 30 0 30;
+}
+a{
+    color:orange;
+text-decoration: none;
+font-family: Lato, sans-serif;
+}
+h2{
+    color:white;
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contenedor-dos{
+  text-align: center;
+font-family: Lato,sans-serif;
+font-weight: 300;
+color:rgb(118, 114, 114);
+
+}
+
+.link{
+    margin-top: 20px;
+    opacity: 0.3;
+    font-weight: 300;
+}

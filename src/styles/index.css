@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    background-color:rgb(79, 79, 81);
+}
+
+.contenedor-card{
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  text-align:center;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(73, 73, 73);
+padding: 20px;
+border-radius: 30px;
+}
+.h3{
+    color:white;
+    letter-spacing: 1px;
+    font-family: Lato,sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.parrafo{
+    color:gray;
+    letter-spacing: 2px;
+}
+.contenedor-numbers{
+   color:white;
+  opacity: 0.4;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.boton{
+  letter-spacing: 20px;
+  height: 50px;
+  width: 60px;
+  margin: 10px;
+  background-color:rgb(132, 127, 127);
+  opacity: 0.5;
+  border: none;
+  border-radius: 50px;
+  color:white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button{
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 20px;
+    background-color: orange;
+   cursor: pointer;
+    color:white;
+    letter-spacing: 3px;
+   margin-top: 30px;
+   border: none;
+}
+.button:hover{
+    background-color: white;
+    color:black;
+}
+button:active{
+   background-color:yellow;
+
+}
+
+@media all and (max-width: 408px){ /*aplica estas mediaquery de 0 hasta 408px*/
+    .contenedor-card{
+        width:100%;
+        height:auto;
+   display: block;
+text-align: center;
+}
+}
